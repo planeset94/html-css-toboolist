@@ -30,11 +30,37 @@ h1{
     line-height: 60px;
 }
 main{
-    width: 70vw;
-    height: 80vh;
-    margin: 7vh auto 0;
-    background-color: blue;
+    width: 800px;
+    height: 550px;
+    margin: 40px auto 0;
+    background-color: white;
+}
+nav{
+    height: 70px;
+    background-color: inherit;
+    border-bottom: 5px solid  #f6f8f9;
 }
 
+.button{
+    background-color: inherit;
+    display: inline-block;
+    height: 30px;
+    padding:5px 10px;
+    
+    
+    
 
+}
 
+.button.blue{
+    margin: 20px 3px  20px 50px;
+    background-color: #47adf1;
+    color:white;
+}
+
+.button.white{
+   background-color: white;
+   border: 1px solid #c5cbd0;
+   color:#c5cbd0;
+   
+}
