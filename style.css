@@ -2,11 +2,12 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    background-color: #f6f8f9;
+   
 }
 body{
     width:100vw;
     height: 100vh;
+    background-color: #f6f8f9;
 }
 header{
     background-color: white;
@@ -21,12 +22,11 @@ header>img{
     line-height: 60px;
     vertical-align: middle;
     padding-left: 30px;    
-    background-color: inherit;          
+         
 }
 
 h1{
     display: inline-block;
-    background-color: inherit;
     line-height: 60px;
 }
 main{
@@ -37,18 +37,14 @@ main{
 }
 nav{
     height: 70px;
-    background-color: inherit;
     border-bottom: 5px solid  #f6f8f9;
 }
 
 .button{
-    background-color: inherit;
     display: inline-block;
     height: 30px;
     padding:5px 10px;
-    
-    
-    
+    border-radius: 10px;  
 
 }
 
@@ -66,32 +62,55 @@ nav{
 }
 
 section{
-    margin: 30px 0 0 50px;
-}
-p{
-    margin: 10px 0 0 25px;
-    display: inline-block;
-    border-radius: 30px;
+    margin: 30px 0 40px 50px;
 }
 
-h3::before{
-    content:"\2713  ";
+.contenirore{
+    display: block;
+}
+.paragraph-done{
+    display: inline-block;
+}
+
+dt{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+dt::before{
+    content:"\0025BE";
+    margin-right: 2px;
+       
+}
+
+.paragraph-done{
+    font-size: 17px;
+}
+
+.paragraph-done::before{
+    content:"\2713";
+    font-size: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    border:1px solid #74c8b4;
+    border-radius: 50%;
+    color:#70c5b0;
     
 }
-.labels{
-    display: inline-block;
-    height: 20px;
-    line-height: 20px;
-    vertical-align: middle;
-
-    padding: 5px 0;
+.labels{  
+    padding: 5px;
     font-size: 10px;
     color: white;
     font-weight: bolder;
+    border-radius: 10px;
+    display: inline-block;
     
 }
 
 .Editorial{
     background-color: #45abea;
+    
+    
 }
 
